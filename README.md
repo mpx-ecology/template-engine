@@ -1,6 +1,6 @@
 # Template-engine
 
-小程序动态化基础模板生成引擎。
+小程序运行时渲染基础模板生成引擎。
 
 > Fork from @tarojs/shared for generating template.
 
@@ -94,7 +94,7 @@ Component({
           c: [
             {
               nt: '#text',
-              ct: '动态渲染'
+              ct: '运行时渲染'
             }
           ]
         }
@@ -105,8 +105,6 @@ Component({
 ```
 
 4. 模板引擎将会在渲染出正确的组件
-
-![alt text](docs/image.png)
 
 # Build Options
 
