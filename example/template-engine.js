@@ -1,5 +1,5 @@
 const fs = require('fs')
-const { createTemplateEngine } = require('@mpxjs/template-engine')
+const { createTemplateEngine } = require('../dist')
 
 const templateEngine = createTemplateEngine('wx') // 'wx' | 'ali' | 'swan' | 'qq' | 'tt' | 'dd' | 'web' | 'tenon'
 

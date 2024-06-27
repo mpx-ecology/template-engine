@@ -13,7 +13,6 @@
     "@mpxjs/fetch": "^2.9.0",
     "@mpxjs/pinia": "^2.9.0",
     "@mpxjs/store": "^2.9.0",
-    "@mpxjs/template-engine": "^2.8.1-4",
     "@mpxjs/utils": "^2.9.0",
     "pinia": "^2.0.14",
     "vue": "^2.7.0",
