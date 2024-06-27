@@ -1,0 +1,48 @@
+<template>
+  <import src="../base.wxml" />
+  <template is="t_0_container" data="{{ i: r }}" />
+</template>
+
+<script>
+import { createComponent } from '@mpxjs/core'
+
+createComponent({
+  data: {
+    r: {}
+  },
+  created() {
+    this.r = this.createLevelData(8)
+  },
+  methods: {
+    createLevelData(maxLevel, level = 0) {
+      if (level > maxLevel) return
+      const levelData = {
+        nt: 'view',
+        d: {},
+        c: [
+          {
+            nt: '#text',
+            ct: `第${level + 1}层`
+          }
+        ]
+      }
+      levelData.c.push(this.createLevelData(maxLevel, level + 1))
+      return levelData
+    }
+  }
+})
+</script>
+
+<style lang="stylus">
+.list
+  background-color: red
+</style>
+
+<script type="application/json">
+{
+  "component": true,
+  "usingComponents": {
+    "element": "../element"
+  }
+}
+</script>

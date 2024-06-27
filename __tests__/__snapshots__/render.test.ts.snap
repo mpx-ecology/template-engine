@@ -1,0 +1,163 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`render > render 1`] = `
+{
+  "attrs": [],
+  "children": [
+    {
+      "attrs": [
+        {
+          "name": "class",
+          "value": "",
+        },
+        {
+          "name": "data-eventconfigs",
+          "value": "",
+        },
+        {
+          "name": "data-mpxuid",
+          "value": 2,
+        },
+        {
+          "name": "style",
+          "value": "color: red",
+        },
+      ],
+      "children": [
+        {
+          "attrs": [
+            {
+              "name": "autoplay",
+              "value": "",
+            },
+            {
+              "name": "circular",
+              "value": "",
+            },
+            {
+              "name": "class",
+              "value": "",
+            },
+            {
+              "name": "data-eventconfigs",
+              "value": "",
+            },
+            {
+              "name": "data-mpxuid",
+              "value": 3,
+            },
+            {
+              "name": "id",
+              "value": "",
+            },
+            {
+              "name": "interval",
+              "value": "",
+            },
+            {
+              "name": "style",
+              "value": "",
+            },
+          ],
+          "children": [],
+          "event": {
+            "change": {
+              "handler": "",
+              "isCapture": false,
+              "isCatch": false,
+              "isMutated": false,
+              "name": "change",
+            },
+          },
+          "tagName": "wx-swiper",
+        },
+        {
+          "attrs": [],
+          "children": [],
+          "event": {},
+          "tagName": "wx-button",
+        },
+        {
+          "attrs": [
+            {
+              "name": "class",
+              "value": "",
+            },
+            {
+              "name": "rules",
+              "value": "",
+            },
+            {
+              "name": "style",
+              "value": "color: red",
+            },
+            {
+              "name": "text",
+              "value": "",
+            },
+          ],
+          "children": [
+            {
+              "attrs": [
+                {
+                  "name": "slot",
+                  "value": "test",
+                },
+              ],
+              "children": [
+                {
+                  "attrs": [
+                    {
+                      "name": "class",
+                      "value": "slot-view-class",
+                    },
+                    {
+                      "name": "data-eventconfigs",
+                      "value": "",
+                    },
+                    {
+                      "name": "data-mpxuid",
+                      "value": "",
+                    },
+                    {
+                      "name": "style",
+                      "value": "color: red",
+                    },
+                  ],
+                  "children": [],
+                  "event": {
+                    "tap": {
+                      "handler": "",
+                      "isCapture": false,
+                      "isCatch": false,
+                      "isMutated": false,
+                      "name": "tap",
+                    },
+                  },
+                  "tagName": "wx-view",
+                },
+              ],
+              "event": {},
+              "tagName": "wx-view",
+            },
+          ],
+          "event": {},
+          "tagName": "m5f9d5dc4",
+        },
+      ],
+      "event": {
+        "tap": {
+          "handler": "",
+          "isCapture": false,
+          "isCatch": false,
+          "isMutated": false,
+          "name": "tap",
+        },
+      },
+      "tagName": "wx-view",
+    },
+  ],
+  "event": {},
+  "tagName": "main",
+}
+`;
