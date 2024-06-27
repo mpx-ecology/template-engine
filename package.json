@@ -1,6 +1,6 @@
 {
   "name": "@mpxjs/template-engine",
-  "version": "2.8.6",
+  "version": "2.8.7",
   "description": "template-engine for mpx runtime render",
   "homepage": "https://github.com/mpx-ecology/template-engine",
   "bugs": {
